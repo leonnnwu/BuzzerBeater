@@ -76,11 +76,16 @@ public abstract class BaseFragment extends Fragment {
 
     public abstract int setFragmentLayoutID();
 
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        Log.e(TAG, "onViewCreated");
+    }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        Log.e(TAG, "onCreateView");
+        Log.e(TAG, "onActivityCreated");
     }
 
     @Override

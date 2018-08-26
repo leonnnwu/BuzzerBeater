@@ -10,8 +10,6 @@ import android.view.ViewGroup;
 
 import com.blog.melo.buzzerbeater.R;
 
-import static android.support.v7.widget.StaggeredGridLayoutManager.TAG;
-
 /**
  * Created by melo on 2016/11/29.
  */
